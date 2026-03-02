@@ -1,3 +1,7 @@
+---
+title: Capstone Rubric
+---
+
 # Module 09 Capstone — Assessment Rubric
 
 **For educators and instructors assessing Capstone submissions.**

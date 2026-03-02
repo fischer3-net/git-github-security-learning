@@ -15,7 +15,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   // The base URL where the site is deployed.
   // Update [your-org] before going live.
-  site: 'https://[your-org].github.io',
+  site: 'https://fischer3-net.github.io',
   base: '/github-for-ai-builders',
 
   integrations: [
@@ -26,7 +26,7 @@ export default defineConfig({
 
       // ── Social / Header Links ──────────────────────────────
       social: {
-        github: 'https://github.com/[your-org]/github-for-ai-builders',
+        github: 'https://github.com/fischer3-net/github-for-ai-builders',
       },
 
       // ── Edit This Page ────────────────────────────────────
@@ -35,7 +35,7 @@ export default defineConfig({
       // encouraging contributions from learners.
       editLink: {
         baseUrl:
-          'https://github.com/[your-org]/github-for-ai-builders/edit/main/docs/',
+          'https://github.com/fischer3-net/github-for-ai-builders/edit/main/docs/',
       },
 
       // ── Last Updated ──────────────────────────────────────
@@ -76,7 +76,7 @@ export default defineConfig({
           tag: 'meta',
           attrs: {
             property: 'og:image',
-            content: 'https://[your-org].github.io/github-for-ai-builders/og-image.png',
+            content: 'https://fischer3-net.github.io/github-for-ai-builders/og-image.png',
           },
         },
       ],
