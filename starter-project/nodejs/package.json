@@ -17,7 +17,7 @@
     "lint:fix": "eslint . --ext .js --fix"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.3.1",
     "express": "^4.21.1",
     "node-fetch": "^3.3.2"
   },
