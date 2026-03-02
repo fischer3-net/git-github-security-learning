@@ -36,6 +36,7 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "UTC"
+ 
     # Limit open PRs to avoid noise — Dependabot can generate
     # many PRs quickly on busy projects.
     open-pull-requests-limit: 5
