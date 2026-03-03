@@ -1,6 +1,6 @@
 # Course Documentation Site
 
-This directory contains the **Starlight (Astro)** documentation site for GitHub for AI Builders — the source for the GitHub Pages site at `https://[your-org].github.io/github-for-ai-builders/`.
+This directory contains the **Starlight (Astro)** documentation site for GitHub for AI Builders — the source for the GitHub Pages site at `https://fischer3-net.github.io/git-github-security-learning/`.
 
 ## Stack
 
@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-The site will be available at `http://localhost:4321/github-for-ai-builders/`
+The site will be available at `http://localhost:4321/git-github-security-learning/`
 
 Hot-reload is enabled — edit any `.mdx` file and the browser updates instantly.
 

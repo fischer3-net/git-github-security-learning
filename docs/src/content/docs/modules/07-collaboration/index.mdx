@@ -87,8 +87,8 @@ When you work on a project you don't own, you have two Git remotes:
 ```
 GitHub (upstream)           GitHub (your fork)        Your machine
 ─────────────────           ──────────────────        ─────────────
-[your-org]/               [YOUR-USERNAME]/           local clone
-github-for-ai-builders  ← github-for-ai-builders  ← (working directory)
+fischer3-net/               [YOUR-USERNAME]/           local clone
+git-github-security-learning  ← git-github-security-learning  ← (working directory)
         │                         │
         │   git fetch upstream    │   git push origin
         │ ◀──────────────────────  │ ──────────────────▶
@@ -108,18 +108,18 @@ You never push to `upstream` — you don't have write access. You push to
 
 ```bash
 # Clone your fork (origin is set automatically)
-git clone https://github.com/YOUR-USERNAME/github-for-ai-builders.git
-cd github-for-ai-builders
+git clone https://github.com/YOUR-USERNAME/git-github-security-learning.git
+cd git-github-security-learning
 
 # Add the upstream remote
-git remote add upstream https://github.com/[your-org]/github-for-ai-builders.git
+git remote add upstream https://github.com/fischer3-net/git-github-security-learning.git
 
 # Verify both remotes exist
 git remote -v
-# origin    https://github.com/YOUR-USERNAME/github-for-ai-builders.git (fetch)
-# origin    https://github.com/YOUR-USERNAME/github-for-ai-builders.git (push)
-# upstream  https://github.com/[your-org]/github-for-ai-builders.git (fetch)
-# upstream  https://github.com/[your-org]/github-for-ai-builders.git (push)
+# origin    https://github.com/YOUR-USERNAME/git-github-security-learning.git (fetch)
+# origin    https://github.com/YOUR-USERNAME/git-github-security-learning.git (push)
+# upstream  https://github.com/fischer3-net/git-github-security-learning.git (fetch)
+# upstream  https://github.com/fischer3-net/git-github-security-learning.git (push)
 ```
 
 ### Keeping Your Fork in Sync
@@ -141,7 +141,7 @@ git push origin main
 Or in one step using the GitHub CLI:
 
 ```bash
-gh repo sync YOUR-USERNAME/github-for-ai-builders --source [your-org]/github-for-ai-builders
+gh repo sync YOUR-USERNAME/git-github-security-learning --source fischer3-net/git-github-security-learning
 ```
 
 **What happens when upstream changes while your branch is open?**
@@ -349,10 +349,10 @@ practice the remote configuration explicitly.
    configured yet, add it now:
 
    ```bash
-   git remote add upstream https://github.com/[your-org]/github-for-ai-builders.git
+   git remote add upstream https://github.com/fischer3-net/git-github-security-learning.git
    ```
 
-   Replace `[your-org]` with the actual organisation or username that
+   Replace `fischer3-net` with the actual organisation or username that
    owns the upstream repository.
 
 2. Fetch from upstream to make sure you're current:

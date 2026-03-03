@@ -10,7 +10,7 @@
 #   Repository Settings → Pages → Source → GitHub Actions
 #
 # The live site will be available at:
-#   https://[your-org].github.io/github-for-ai-builders/
+#   https://fischer3-net.github.io/git-github-security-learning/
 # ============================================================
 
 name: Deploy Docs to Pages

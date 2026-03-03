@@ -10,9 +10,9 @@ type: software
 
 license: MIT
 
-repository-code: "https://github.com/[your-org]/github-for-ai-builders"
+repository-code: "https://github.com/fischer3-net/git-github-security-learning"
 
-url: "https://github.com/[your-org]/github-for-ai-builders"
+url: "https://github.com/fischer3-net/git-github-security-learning"
 
 abstract: >-
   An open-source GitHub course for developers and educators that teaches
@@ -37,7 +37,7 @@ keywords:
 
 authors:
   - name: "GitHub for AI Builders Contributors"
-    website: "https://github.com/[your-org]/github-for-ai-builders/graphs/contributors"
+    website: "https://github.com/fischer3-net/git-github-security-learning/graphs/contributors"
 
 # Add individual authors below as the project grows, e.g.:
 # - given-names: "Jane"
@@ -55,6 +55,6 @@ preferred-citation:
   title: "GitHub for AI Builders"
   authors:
     - name: "GitHub for AI Builders Contributors"
-  url: "https://github.com/[your-org]/github-for-ai-builders"
+  url: "https://github.com/fischer3-net/git-github-security-learning"
   license: MIT
   year: 2025

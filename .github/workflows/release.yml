@@ -18,11 +18,11 @@
 #   git push origin v1.0.0
 #
 # The release will appear at:
-#   https://github.com/[org]/github-for-ai-builders/releases
+#   https://github.com/fischer3-net/git-github-security-learning/releases
 #
 # Images will be published at:
-#   ghcr.io/[org]/github-for-ai-builders/orchestrator:v1.0.0
-#   ghcr.io/[org]/github-for-ai-builders/orchestrator:latest
+#   ghcr.io/fischer3-net/git-github-security-learning/orchestrator:v1.0.0
+#   ghcr.io/fischer3-net/git-github-security-learning/orchestrator:latest
 # ============================================================
 
 name: Release
@@ -141,7 +141,7 @@ jobs:
   # Attestations let users verify that an image was built by
   # THIS repository's CI, not by someone who gained access to
   # your container registry. Verify with:
-  #   gh attestation verify oci://ghcr.io/[org]/orchestrator:v1.0.0
+  #   gh attestation verify oci://ghcr.io/fischer3-net/orchestrator:v1.0.0
   # ──────────────────────────────────────────────────────────
   attest:
     name: Attest Release Artifacts

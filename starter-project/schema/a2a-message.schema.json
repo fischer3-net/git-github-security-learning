@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/[your-org]/github-for-ai-builders/starter-project/schema/a2a-message.schema.json",
+  "$id": "https://github.com/fischer3-net/git-github-security-learning/starter-project/schema/a2a-message.schema.json",
   "title": "A2A Message",
   "description": "The canonical request/response schema for all Agent-to-Agent communication in the starter project. Every Specialist Agent must accept requests and return responses conforming to this schema.",
   "definitions": {

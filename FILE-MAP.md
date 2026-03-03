@@ -13,10 +13,10 @@ in the repository. Use this as your placement guide when setting up the repo.
 ---
 
 ## Repository Root
-`github.com/[your-org]/github-for-ai-builders/`
+`github.com/fischer3-net/git-github-security-learning/`
 
 ```
-github-for-ai-builders/               ← Repository root
+git-github-security-learning/               ← Repository root
 │
 ├── README.md                          ✅ Full course overview, module map,
 │                                         learner + educator quick-start
@@ -29,7 +29,7 @@ github-for-ai-builders/               ← Repository root
 │                                         course-specific welcome language
 │
 ├── CITATION.cff                       🔧 Academic citation file — update
-│                                         [your-org], release date, and add
+│                                         fischer3-net, release date, and add
 │                                         individual author entries as needed
 │
 ├── LICENSE                            ← Create manually: MIT License
@@ -108,7 +108,7 @@ docs/
 │
 ├── astro.config.mjs                   🔧 Main Starlight config — site URL,
 │                                         nav sidebar, theme, i18n, edit links.
-│                                         Replace all [your-org] placeholders
+│                                         Replace all fischer3-net placeholders
 │
 ├── package.json                       ✅ Astro + Starlight dependencies
 │

@@ -154,7 +154,7 @@ Git tag. It adds:
 - A pre-release flag for beta or release candidate versions
 - A "Latest" badge on the repository's main page
 
-Releases appear at `https://github.com/[org]/[repo]/releases`. The most
+Releases appear at `https://github.com/fischer3-net/[repo]/releases`. The most
 recent non-prerelease release is displayed on the repository's right sidebar.
 
 ### GitHub Packages and ghcr.io
@@ -168,14 +168,14 @@ For Docker images, the published image name follows the pattern:
 ghcr.io/[org-or-user]/[repo]/[image-name]:[tag]
 
 # Examples for this project:
-ghcr.io/your-org/github-for-ai-builders/orchestrator-python:v1.0.0
-ghcr.io/your-org/github-for-ai-builders/orchestrator-python:latest
+ghcr.io/your-org/git-github-security-learning/orchestrator-python:v1.0.0
+ghcr.io/your-org/git-github-security-learning/orchestrator-python:latest
 ```
 
 Anyone can pull a public image without authentication:
 ```bash
-docker pull ghcr.io/your-org/github-for-ai-builders/orchestrator-python:v1.0.0
-docker run -p 8000:8000 ghcr.io/your-org/github-for-ai-builders/orchestrator-python:v1.0.0
+docker pull ghcr.io/your-org/git-github-security-learning/orchestrator-python:v1.0.0
+docker run -p 8000:8000 ghcr.io/your-org/git-github-security-learning/orchestrator-python:v1.0.0
 ```
 
 Authentication uses `GITHUB_TOKEN` in the workflow — no manual secret
@@ -198,7 +198,7 @@ The site URL follows one of these patterns:
 | Custom domain configured | `https://your-domain.com/` |
 
 For this project, the docs site will be at:
-`https://[your-username].github.io/github-for-ai-builders/`
+`https://[your-username].github.io/git-github-security-learning/`
 
 ### Reading `release.yml` — The Four-Job Pipeline
 
@@ -396,7 +396,7 @@ repository settings and set the source to GitHub Actions.
    ```
 
    Or navigate directly to:
-   `https://YOUR-USERNAME.github.io/github-for-ai-builders/`
+   `https://YOUR-USERNAME.github.io/git-github-security-learning/`
 
 6. Confirm the site is live and the change you made is visible.
    Navigate through the sidebar — the module pages should render
@@ -562,7 +562,7 @@ everything is ready before tagging.
 1. Pull the published Orchestrator image:
 
    ```bash
-   docker pull ghcr.io/YOUR-USERNAME/github-for-ai-builders/orchestrator-python:v1.0.0
+   docker pull ghcr.io/YOUR-USERNAME/git-github-security-learning/orchestrator-python:v1.0.0
    ```
 
    If Docker isn't available in your Codespace, verify the image
@@ -571,7 +571,7 @@ everything is ready before tagging.
    ```bash
    gh api /users/YOUR-USERNAME/packages/container \
      --jq '.[].name' 2>/dev/null || \
-   gh browse --repo YOUR-USERNAME/github-for-ai-builders  # navigate to Packages tab
+   gh browse --repo YOUR-USERNAME/git-github-security-learning  # navigate to Packages tab
    ```
 
 2. Navigate to the **Packages** tab of your repository on GitHub.
@@ -588,7 +588,7 @@ everything is ready before tagging.
 3. Check that `latest` also points to `v1.0.0`:
 
    ```bash
-   docker pull ghcr.io/YOUR-USERNAME/github-for-ai-builders/orchestrator-python:latest
+   docker pull ghcr.io/YOUR-USERNAME/git-github-security-learning/orchestrator-python:latest
    ```
 
    The `docker/metadata-action` in the workflow configured this
@@ -607,8 +607,8 @@ This is the step that closes the loop between shipping and trust.
 
    ```bash
    gh attestation verify \
-     oci://ghcr.io/YOUR-USERNAME/github-for-ai-builders/orchestrator-python:v1.0.0 \
-     --repo YOUR-USERNAME/github-for-ai-builders
+     oci://ghcr.io/YOUR-USERNAME/git-github-security-learning/orchestrator-python:v1.0.0 \
+     --repo YOUR-USERNAME/git-github-security-learning
    ```
 
 2. A successful result looks like:

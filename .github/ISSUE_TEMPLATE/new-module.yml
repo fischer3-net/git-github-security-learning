@@ -23,7 +23,7 @@ body:
     attributes:
       label: Link to the Ideas Discussion
       description: "Paste the URL of the Discussion where maintainers approved moving forward with this module."
-      placeholder: "https://github.com/[org]/github-for-ai-builders/discussions/XX"
+      placeholder: "https://github.com/fischer3-net/git-github-security-learning/discussions/XX"
     validations:
       required: true
 

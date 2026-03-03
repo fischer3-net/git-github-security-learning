@@ -50,7 +50,7 @@ gh repo fork owner/repo --clone --remote
 # Sync your fork with upstream
 gh repo sync                                      # syncs current repo's fork
 gh repo sync YOUR-USERNAME/repo \
-  --source [your-org]/github-for-ai-builders      # explicit source
+  --source fischer3-net/git-github-security-learning      # explicit source
 
 # View repository info
 gh repo view
@@ -267,19 +267,19 @@ repository's CI pipeline and hasn't been tampered with.
 ```bash
 # Verify a container image's provenance
 gh attestation verify \
-  oci://ghcr.io/YOUR-USERNAME/github-for-ai-builders/orchestrator-python:v1.0.0 \
-  --repo YOUR-USERNAME/github-for-ai-builders
+  oci://ghcr.io/YOUR-USERNAME/git-github-security-learning/orchestrator-python:v1.0.0 \
+  --repo YOUR-USERNAME/git-github-security-learning
 
 # Verify against a specific workflow
 gh attestation verify \
-  oci://ghcr.io/YOUR-USERNAME/github-for-ai-builders/orchestrator-python:v1.0.0 \
-  --repo YOUR-USERNAME/github-for-ai-builders \
+  oci://ghcr.io/YOUR-USERNAME/git-github-security-learning/orchestrator-python:v1.0.0 \
+  --repo YOUR-USERNAME/git-github-security-learning \
   --signer-workflow .github/workflows/release.yml
 
 # Download the attestation bundle for offline inspection
 gh attestation download \
-  oci://ghcr.io/YOUR-USERNAME/github-for-ai-builders/orchestrator-python:v1.0.0 \
-  --repo YOUR-USERNAME/github-for-ai-builders
+  oci://ghcr.io/YOUR-USERNAME/git-github-security-learning/orchestrator-python:v1.0.0 \
+  --repo YOUR-USERNAME/git-github-security-learning
 ```
 
 A successful verification output looks like:
@@ -304,7 +304,7 @@ The following policy criteria were satisfied:
 gh codespace create
 
 # Create a Codespace for a specific repo
-gh codespace create --repo YOUR-USERNAME/github-for-ai-builders
+gh codespace create --repo YOUR-USERNAME/git-github-security-learning
 
 # List your Codespaces
 gh codespace list

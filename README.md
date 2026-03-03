@@ -176,7 +176,7 @@ Educators can choose either variant. The GitHub concepts are identical regardles
 ## 🗂️ Repository Structure
 
 ```
-github-for-ai-builders/
+git-github-security-learning/
 ├── README.md                    ← You are here
 ├── LICENSE                      ← MIT License
 ├── CONTRIBUTING.md              ← How to contribute to this course
@@ -263,7 +263,7 @@ If you use this course in your teaching, a citation is appreciated:
 
 ```
 GitHub for AI Builders. MIT License.
-https://github.com/[your-org]/github-for-ai-builders
+https://github.com/fischer3-net/git-github-security-learning
 ```
 
 A `CITATION.cff` file is included for formal academic citation.

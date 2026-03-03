@@ -179,11 +179,11 @@ This is the most impactful contribution type. Lesson content lives in `modules/[
 
 ```bash
 # Fork the repo on GitHub, then:
-git clone https://github.com/YOUR-USERNAME/github-for-ai-builders.git
-cd github-for-ai-builders
+git clone https://github.com/YOUR-USERNAME/git-github-security-learning.git
+cd git-github-security-learning
 
 # Set the upstream remote
-git remote add upstream https://github.com/[course-org]/github-for-ai-builders.git
+git remote add upstream https://github.com/[course-org]/git-github-security-learning.git
 
 # Verify remotes
 git remote -v
