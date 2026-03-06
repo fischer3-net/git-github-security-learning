@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "postbuild": "rm -rf dist/_worker.js",
     "preview": "astro preview",
     "astro": "astro"
   },
