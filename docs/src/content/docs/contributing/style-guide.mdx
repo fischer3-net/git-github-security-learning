@@ -243,7 +243,8 @@ import { Steps, Tabs, TabItem, Aside } from '@astrojs/starlight/components';
 **`<Steps>`** — numbered step sequences. Use for all exercise steps. Each direct
 child becomes a numbered step:
 
-```mdx
+````mdx
+
 <Steps>
 1. Clone your fork:
 
@@ -257,12 +258,13 @@ child becomes a numbered step:
    git remote add upstream https://github.com/fischer3-net/repo.git
    ```
 </Steps>
-```
+
+````
 
 **`<Tabs>` / `<TabItem>`** — language-variant content. Use when showing the same
 concept in both Python and Node.js:
 
-```mdx
+````mdx
 <Tabs>
   <TabItem label="Python">
     ```bash
@@ -277,7 +279,7 @@ concept in both Python and Node.js:
     ```
   </TabItem>
 </Tabs>
-```
+````
 
 **`<Aside>`** — callout boxes. Use sparingly — one or two per module at most.
 Too many asides train learners to skip them.
