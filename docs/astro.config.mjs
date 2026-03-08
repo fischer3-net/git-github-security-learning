@@ -15,8 +15,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   // The base URL where the site is deployed.
   // Update fischer3-net before going live.
-  site: 'https://fischer3-net.github.io',
-  base: '/github-for-ai-builders/',
+  site: 'https://github4ai.fischer3.net',
 
   integrations: [
     starlight({
