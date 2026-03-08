@@ -17,6 +17,8 @@ export default defineConfig({
   // Update fischer3-net before going live.
   site: 'https://github4ai.fischer3.net',
 
+  base: '/',
+
   integrations: [
     starlight({
       title: 'GitHub for AI Builders',
