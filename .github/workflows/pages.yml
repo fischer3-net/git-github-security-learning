@@ -10,7 +10,7 @@
 #   Repository Settings → Pages → Source → GitHub Actions
 #
 # The live site will be available at:
-#   https://fischer3-net.github.io/git-github-security-learning/
+#   https://[your-org].github.io/github-for-ai-builders/
 # ============================================================
 
 name: Deploy Docs to Pages
@@ -49,7 +49,7 @@ jobs:
   # ──────────────────────────────────────────────────────────
   # JOB 1: Build
   # Installs dependencies and runs `astro build` to produce
-  # a static site in the `docs/_site/` directory.
+  # a static site in the `docs/dist/` directory.
   # ──────────────────────────────────────────────────────────
   build:
     name: Build Starlight Site
