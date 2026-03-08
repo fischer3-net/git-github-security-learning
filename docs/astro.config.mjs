@@ -17,7 +17,7 @@ export default defineConfig({
   // The pages.yml workflow passes SITE and BASE_PATH at build time via
   // actions/configure-pages — these fallbacks are used for local dev.
   site: process.env.SITE || 'https://fischer3-net.github.io/git-github-security-learning',
-  base: process.env.BASE_PATH || '/git-github-security-learning',
+  base: process.env.BASE_PATH || '/',
 
   integrations: [
     starlight({
