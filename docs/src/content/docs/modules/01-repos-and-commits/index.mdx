@@ -62,15 +62,7 @@ This might sound abstract, so let's ground it immediately: the Orchestrator Agen
 
 Understanding Git requires understanding three distinct places your files can live:
 
-```
-┌─────────────────────┐     git add      ┌──────────────────┐     git commit     ┌───────────────┐
-│   Working Directory │ ───────────────▶ │   Staging Area   │ ─────────────────▶ │    History    │
-│                     │                  │   (the Index)    │                    │  (commits)    │
-│  Your actual files  │ ◀─────────────── │                  │                    │               │
-│  on disk            │    git restore   │ What will go     │                    │ Permanent     │
-│                     │                  │ into next commit │                    │ snapshots     │
-└─────────────────────┘                  └──────────────────┘                    └───────────────┘
-```
+![Git Basic Worklfow](/public/images/security/gitbasicworkflow.jpg)
 
 | Area | What it is | Command to move files in |
 |------|-----------|--------------------------|

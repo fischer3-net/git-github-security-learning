@@ -5,7 +5,7 @@
    height="300"
    version="1.1"
    id="svg2"
-   sodipodi:docname="hero-illustration.svg"
+   sodipodi:docname="hero-illustration-2.svg"
    inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -13,6 +13,18 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs2">
+    <rect
+       x="98.802396"
+       y="144.43114"
+       width="195.80839"
+       height="39.88024"
+       id="rect3" />
+    <rect
+       x="91.257486"
+       y="187.54491"
+       width="238.56288"
+       height="58.922156"
+       id="rect1" />
     <rect
        x="118.56287"
        y="126.82635"
@@ -39,11 +51,11 @@
      inkscape:zoom="2.7833333"
      inkscape:cx="190.05988"
      inkscape:cy="150"
-     inkscape:window-width="1920"
-     inkscape:window-height="1043"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1196"
+     inkscape:window-height="991"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <rect
      x="81.676643"
@@ -60,8 +72,8 @@
      d=""
      id="path5" />
   <path
-     style="fill:#0b1929;fill-opacity:1;stroke-width:0.359281"
-     d="m 13.293413,142.30514 c -1.484357,-0.66256 -2.998678,-2.35689 -3.4202502,-3.82682 -0.482514,-1.68243 -0.477102,-120.050239 0.0056,-121.78767 0.4013202,-1.4446 2.2033232,-3.347014 3.7075332,-3.914123 0.706041,-0.266188 37.533795,-0.379533 121.976044,-0.375408 l 120.96463,0.0059 1.42981,0.809796 c 0.80168,0.454047 1.78555,1.437917 2.2396,2.239598 l 0.80979,1.429803 v 60.718569 60.718555 l -0.80979,1.4298 c -0.45405,0.80168 -1.43792,1.78555 -2.2396,2.2396 l -1.42981,0.8098 -121.07784,-0.008 c -100.368359,-0.007 -121.262197,-0.0905 -122.155684,-0.48926 z"
+     style="fill:#0b1929;fill-opacity:1;stroke-width:0.617966"
+     d="m 15.150763,270.07937 c -2.213827,-1.31426 -4.472343,-4.67514 -5.101091,-7.5909 -0.7196402,-3.33727 -0.7115686,-238.132138 0.0084,-241.578513 0.598544,-2.865515 3.28612,-6.639151 5.529556,-7.76407 1.053016,-0.528012 55.979328,-0.752844 181.919712,-0.744661 l 180.41125,0.0117 2.13247,1.606315 c 1.19566,0.900649 2.66304,2.852258 3.34022,4.442475 l 1.20776,2.836163 V 141.73948 262.18106 l -1.20776,2.83615 c -0.67718,1.59022 -2.14456,3.54183 -3.34022,4.44248 l -2.13247,1.60632 -180.5801,-0.0159 C 47.645257,271.03626 16.483392,270.87063 15.150812,270.07965 Z"
      id="path7" />
   <text
      xml:space="preserve"
@@ -89,7 +101,7 @@
   <text
      xml:space="preserve"
      id="text9"
-     style="fill:#ffffff;text-orientation:auto;-inkscape-font-specification:'Nimbus Roman,  Bold';font-family:'Nimbus Roman';font-size:32px;font-weight:bold;writing-mode:lr-tb;direction:ltr;fill-opacity:1;white-space:pre;shape-inside:url(#rect9)" />
+     style="font-weight:bold;font-size:32px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman,  Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect9);display:inline;fill:#ffffff;fill-opacity:1" />
   <text
      xml:space="preserve"
      style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman,  Italic';writing-mode:lr-tb;direction:ltr;fill:#ffffff;fill-opacity:1;stroke-width:1.93624"
@@ -102,16 +114,4 @@
        x="228.46661"
        y="54.611485"
        style="font-size:42.6667px;stroke-width:1.93624">3</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman,  Italic';writing-mode:lr-tb;direction:ltr;fill:#ffffff;fill-opacity:1;stroke-width:1.93624"
-     x="10.004716"
-     y="169.84102"
-     id="text10-5-6"
-     transform="scale(1.0014046,0.99859737)"><tspan
-       sodipodi:role="line"
-       id="tspan10-4-5"
-       x="10.004716"
-       y="169.84102"
-       style="font-size:32px;fill:#000000;stroke-width:1.93624">Git/GitHub for AI Builders</tspan></text>
 </svg>
