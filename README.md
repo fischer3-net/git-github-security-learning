@@ -1,4 +1,4 @@
-# 🤖 GitHub for AI Builders
+# GitHub for AI Builders
 ### *Learn GitHub from Zero to Mid-Level Proficiency — Through the Lens of Building AI Agent Systems*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
